@@ -1,6 +1,6 @@
 {
-	"name": "xlsx-style",
-	"version": "0.8.13",
+	"name": "xlsx-style-custom",
+	"version": "0.8.14",
 	"author": "sheetjs",
 	"description": "Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS spreadsheet parser and writer (extended to enable read/write of cell formats with xlsx files)",
 	"keywords": [ "excel", "xls", "xlsx", "xlsb", "xlsm", "ods", "office", "spreadsheet" ],
@@ -23,7 +23,7 @@
 		"xlsjs":"",
 		"uglify-js":""
 	},
-	"repository": { "type":"git", "url":"git://github.com/protobi/js-xlsx.git#beta" },
+	"repository": { "type":"git", "url":"git://github.com/jets-/js-xlsx.git#beta" },
 	"scripts": {
 		"pretest": "git submodule init && git submodule update",
 		"test": "make test"
