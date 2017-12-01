@@ -1,4 +1,5 @@
-var has_buf = (typeof Buffer !== 'undefined');
+//var has_buf = (typeof Buffer !== 'undefined');
+var has_buf = (typeof Buffer !== 'undefined' && typeof process !== 'undefined' && typeof process.versions !== 'undefined' && process.versions.node); 
 
 function new_raw_buf(len) {
 	/* jshint -W056 */
